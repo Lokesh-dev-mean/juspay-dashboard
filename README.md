@@ -77,19 +77,4 @@ No external env configuration is required for local development. The app uses st
 - **Chart responsiveness**: Managing grid, label spacing, and bar widths to avoid overlap across breakpoints.
 - **Map projection sizing**: Tuning `react-simple-maps` projection and scale for a compact, legible sparkline-style map.
 
-## Improvements made
-
-- Extracted chart configuration and theme colors into `constant/ecommerce.constant.ts` for reuse.
-- Added `MetricCard` and a canvas-based `DonutChart` component for performance and design parity.
-- Normalized layout spacing and typography via `theme/` and page-level style objects.
-
-## Future enhancements
-
-- Replace mock data with real APIs and add data loading states.
-- Add tests (React Testing Library + Vitest) and CI lint/build checks.
-- Add i18n and number/date localization.
-- Improve accessibility audits (ARIA, contrast) and keyboard navigation.
-
-## License
-
-This project is provided for the Juspay assignment. Use as reference unless otherwise specified.
+  
