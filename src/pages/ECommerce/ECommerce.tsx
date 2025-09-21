@@ -549,7 +549,8 @@ export const ECommerce: React.FC = () => {
     
                  <Box 
                   sx={{ 
-                    display: 'flex', 
+                    display: 'flex',
+                    width: '100%',
                     flexDirection: 'column', 
                     gap: '12px', 
                     justifyContent: 'center' 
